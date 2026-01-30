@@ -7,5 +7,5 @@ jobs:
     - uses: actions/checkout@v4
     - run: pwd
     - run: npm --version
-    - run: install
+    - run: npm install
     - run: npm run build
