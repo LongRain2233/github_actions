@@ -1,4 +1,9 @@
 on:push
 jobs:
   job1:
+    steps:
+      - run: echo "This is job 1"
   job2:
+    steps:
+      - run: echo "This is job 2"
+      
