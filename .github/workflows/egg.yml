@@ -2,8 +2,9 @@ on:push
 jobs:
   job1:
     steps:
-      - run: echo "This is job 1"
+      - run: pwd
+      - run: ls
   job2:
     steps:
-      - run: echo "This is job 2"
+      - run: node -version
       
